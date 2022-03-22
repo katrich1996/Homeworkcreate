@@ -54,10 +54,25 @@ class task4 {
 
 
 
+////// Task 5
+class task5 {
+    public static void main(String [] args) {
+        int mouthNumber = 13;
+        if (mouthNumber == 12 || mouthNumber == 1 || mouthNumber == 2) {
+            System.out.println("Зима");
+        } else if (mouthNumber == 3 || mouthNumber == 4 || mouthNumber == 5) {
+            System.out.println("Весна");
+        } else if (mouthNumber == 6 || mouthNumber == 7 || mouthNumber == 8) {
+            System.out.println("Лето");
+        } else if (mouthNumber == 9 || mouthNumber == 10 || mouthNumber == 11) {
+            System.out.println("Зима");
+        } else {
+            System.out.println("Такого месяца нет");
 
 
-
-
+        }
+    }
+}
 
 
 
